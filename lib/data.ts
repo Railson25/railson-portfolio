@@ -38,6 +38,13 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "English certification",
+    location: "Brazil",
+    description: "I have a degree in English from the English Live school",
+    icon: React.createElement(RiEnglishInput),
+    date: "2019",
+  },
+  {
     title: "Bachelor degree",
     location: "Brazil",
     description: "Graduated in systems analysis and development",
@@ -51,13 +58,6 @@ export const experiencesData = [
       "I graduated in information security in intensive hacker/security courses. but I wasn't interested in this area as desired and decided to focus only on frontend.",
     icon: React.createElement(MdOutlineSecurity),
     date: "2020",
-  },
-  {
-    title: "English certification",
-    location: "Brazil",
-    description: "I have a degree in English from the English Live school",
-    icon: React.createElement(RiEnglishInput),
-    date: "2019",
   },
   {
     title: "Linux bootcamp",
