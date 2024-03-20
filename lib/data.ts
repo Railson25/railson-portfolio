@@ -9,6 +9,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import Ecomerce from "@/public/e-comerce.png";
 import Kimmy from "@/public/kimmy.png";
 import TSM from "@/public/tsm.png";
+import Airbnb from "@/public/airbnb.png";
 
 export const links = [
   {
@@ -125,6 +126,21 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: Ecomerce,
   },
+  {
+    title: "Airbnb",
+    description:
+      "Airbnb clone project with the aim of learning how to create new applications",
+    tags: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Tailwind",
+      "MongoDB",
+      "Prisma",
+      "Zod",
+    ],
+    imageUrl: Airbnb,
+  },
 ] as const;
 
 export const skillsData = [
@@ -142,4 +158,5 @@ export const skillsData = [
   "Clerk",
   "MongoDB",
   "PostgreSQL",
+  "Api rest",
 ] as const;
