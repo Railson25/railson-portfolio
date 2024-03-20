@@ -8,6 +8,7 @@ import { MdOutlineSecurity, MdWork } from "react-icons/md";
 import { TbBrandNextjs } from "react-icons/tb";
 import Ecomerce from "@/public/e-comerce.png";
 import Kimmy from "@/public/kimmy.png";
+import TSM from "@/public/tsm.png";
 
 export const links = [
   {
@@ -93,6 +94,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "TSM statistics",
+    description:
+      "Website created to generate wild rift player/team statistics as a form of analysis for them.",
+    tags: [
+      "Typescript",
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Clerk",
+      "ChartJs",
+      "Postgresql",
+      "Prisma",
+      "Zod",
+      "Vercel",
+    ],
+    imageUrl: TSM,
+  },
+  {
     title: "Kimmy portfolio",
     description:
       "Website intended for a streamer for her personal presentation, with design and links to her social networks",
@@ -109,13 +128,18 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
-  "React",
   "Next.js",
+  "React",
+  "JavaScript",
   "Node.js",
+  "Prisma",
   "Git",
   "Tailwind",
+  "Styled-component",
+  "HTML",
+  "CSS",
+  "Clerk",
+  "MongoDB",
+  "PostgreSQL",
 ] as const;
