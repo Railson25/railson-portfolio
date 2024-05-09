@@ -10,6 +10,7 @@ import Ecomerce from "@/public/e-comerce.png";
 import Kimmy from "@/public/kimmy.png";
 import TSM from "@/public/tsm.png";
 import Airbnb from "@/public/airbnb.png";
+import Railsongram from "@/public/railsongram.png";
 
 export const links = [
   {
@@ -111,6 +112,22 @@ export const projectsData = [
       "Vercel",
     ],
     imageUrl: TSM,
+  },
+  {
+    title: "Railsongram",
+    description: "Social media app ",
+    tags: [
+      "Typescript",
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Vite",
+      "appwrite",
+      "storage",
+      "FilePond",
+      "Zod",
+    ],
+    imageUrl: Railsongram,
   },
   {
     title: "Kimmy portfolio",
