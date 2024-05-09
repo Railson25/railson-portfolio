@@ -8,6 +8,9 @@ import { MdOutlineSecurity, MdWork } from "react-icons/md";
 import { TbBrandNextjs } from "react-icons/tb";
 import Ecomerce from "@/public/e-comerce.png";
 import Kimmy from "@/public/kimmy.png";
+import TSM from "@/public/tsm.png";
+import Airbnb from "@/public/airbnb.png";
+import Railsongram from "@/public/railsongram.png";
 
 export const links = [
   {
@@ -93,6 +96,40 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "TSM statistics",
+    description:
+      "Website created to generate wild rift player/team statistics as a form of analysis for them.",
+    tags: [
+      "Typescript",
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Clerk",
+      "ChartJs",
+      "Postgresql",
+      "Prisma",
+      "Zod",
+      "Vercel",
+    ],
+    imageUrl: TSM,
+  },
+  {
+    title: "Railsongram",
+    description: "Social media app ",
+    tags: [
+      "Typescript",
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Vite",
+      "appwrite",
+      "storage",
+      "FilePond",
+      "Zod",
+    ],
+    imageUrl: Railsongram,
+  },
+  {
     title: "Kimmy portfolio",
     description:
       "Website intended for a streamer for her personal presentation, with design and links to her social networks",
@@ -106,16 +143,37 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: Ecomerce,
   },
+  {
+    title: "Airbnb",
+    description:
+      "Airbnb clone project with the aim of learning how to create new applications",
+    tags: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Tailwind",
+      "MongoDB",
+      "Prisma",
+      "Zod",
+    ],
+    imageUrl: Airbnb,
+  },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
-  "React",
   "Next.js",
+  "React",
+  "JavaScript",
   "Node.js",
+  "Prisma",
   "Git",
   "Tailwind",
+  "Styled-component",
+  "HTML",
+  "CSS",
+  "Clerk",
+  "MongoDB",
+  "PostgreSQL",
+  "Api rest",
 ] as const;
