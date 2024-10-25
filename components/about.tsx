@@ -20,28 +20,27 @@ export default function About() {
       <SectionHeading>Sobre</SectionHeading>
       <p className="mb-3">
         I have a bachelor&apos;s degree in{" "}
-        <span className="font-medium">Systems analysis and development</span>, I
-        have experience as a Code reviewer and have participated in many
-        bootcamps with very different projects where I can have a better
-        understanding of the{" "}
-        <span className="font-medium">Web development.</span>{" "}
+        <span className="font-medium">Systems analysis and development</span>,
+        and I have 4 years of experience as a Code Reviewer, having participated
+        in many bootcamps with diverse projects, which has given me a better
+        understanding of <span className="font-medium">Web development.</span>{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
-        <span className="font-medium">React, Next.js, Tailwind, Css, Html</span>
-        . I am also familiar with TypeScript, MongoDB and Prisma. I am always
-        looking to learn new technologies. I am currently looking for a{" "}
+        <span className="font-medium">React, Next.js, Tailwind, CSS, HTML</span>
+        . I am also familiar with TypeScript, MongoDB, and Prisma, and I am
+        always looking to learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a web
         developer.
       </p>
 
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy
-        playing video games, watching movies, and playing with my friends. I
-        also enjoy <span className="font-medium">learning new things</span>. I
+        playing video games, watching movies, and spending time with my friends.
+        I also enjoy <span className="font-medium">learning new things</span>. I
         am currently learning about{" "}
-        <span className="font-medium">full-stack developer</span>.
+        <span className="font-medium">full-stack development</span>.
       </p>
     </motion.section>
   );
