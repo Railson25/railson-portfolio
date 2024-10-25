@@ -21,9 +21,10 @@ export default function About() {
       <p className="mb-3">
         I have a bachelor&apos;s degree in{" "}
         <span className="font-medium">Systems analysis and development</span>,
-        and I have 4 years of experience as a Code Reviewer, having participated
-        in many bootcamps with diverse projects, which has given me a better
-        understanding of <span className="font-medium">Web development.</span>{" "}
+        and I have 4 years of experience as a Code Reviewer/Web developer,
+        having participated in many bootcamps with diverse projects, which has
+        given me a better understanding of{" "}
+        <span className="font-medium">Web development.</span>{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
