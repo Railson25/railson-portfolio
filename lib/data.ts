@@ -71,7 +71,7 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Code Review",
+    title: "Code Review - Practicum",
     location: "Brazil",
     description: "Work reviewing students projects in html/css/js",
     icon: React.createElement(MdWork),
@@ -85,12 +85,26 @@ export const experiencesData = [
     date: "2022",
   },
   {
+    title: "Tech Editor - Triple Ten",
+    location: "Brazil",
+    description: "Work reviewing students projects in html/css/js",
+    icon: React.createElement(MdWork),
+    date: "2022",
+  },
+  {
     title: "Full stack projects",
     location: "Brazil",
     description:
       "bootcamp focused on projects with nextjs/typescript/prisma and different databases",
     icon: React.createElement(TbBrandNextjs),
     date: "2023",
+  },
+  {
+    title: "Frontend Developer - Cashtime",
+    location: "Brazil",
+    description: "1 year experience as a Frontend Developer at Cashtime",
+    icon: React.createElement(MdWork),
+    date: "2024",
   },
 ] as const;
 
